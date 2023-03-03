@@ -23,7 +23,7 @@
   <body>
     <!--Header-->
     <header class="page-header">
-      <!-- <div class="nav-box container">
+      <div class="nav-box container">
         <nav class="site-nav">
           <a href="./index.html" class="logo link"
             >Web<span class="logo-part">Studio</span></a
@@ -40,6 +40,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open js-open-menu">
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="adress-nav">
           <ul class="adress-list list">
             <li class="adress-item">
@@ -54,7 +59,74 @@
             </li>
           </ul>
         </address>
-      </div> -->
+
+        <div class="mobile-menu js-menu-container">
+          <div class="container mobile-menu-container">
+            <button class="mobile-menu-close-btn js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-modal"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu-list list">
+              <li class="mobile-menu-item">
+                <a href="./index.html" class="mobile-menu-link link">Studio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="./portfolio.html" class="mobile-menu-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link link">Contacts</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-adress-list list">
+              <li class="mobile-menu-adress-item">
+                <a href="tel:+110001111111" class="mobile-menu-adress-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-adress-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-adres-mail link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu-soc-list list">
+              <li class="mobile-menu-soc-item">
+                <a href="" class="mobile-menu-soc-link link">
+                  <svg class="mobile-menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-soc-item">
+                <a href="" class="mobile-menu-soc-link link">
+                  <svg class="mobile-menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-soc-item">
+                <a href="" class="mobile-menu-soc-link link">
+                  <svg class="mobile-menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-soc-item">
+                <a href="" class="mobile-menu-soc-link link">
+                  <svg class="mobile-menu-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <!--Main-->
     <main>
@@ -70,7 +142,7 @@
         </div>
       </section>
       <!--Our features-->
-      <!-- <section class="features section">
+      <section class="features section">
         <div class="container">
           <h2 class="visually-hidden title">Our features</h2>
           <ul class="features-list list">
@@ -124,9 +196,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--What are we doing-->
-      <!-- <section class="about section">
+      <section class="about section">
         <div class="container">
           <h2 class="about-title title">What are we doing</h2>
           <ul class="about-list list">
@@ -153,9 +225,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--Our team-->
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title title">Our Team</h2>
           <ul class="team-list list">
@@ -325,8 +397,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="client section">
+      </section>
+      <section class="client section">
         <div class="container">
           <h2 class="client-title title">Customers</h2>
           <ul class="clien-list list">
@@ -374,10 +446,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!--Footer-->
-    <!-- <footer class="page-footer">
+    <footer class="page-footer section">
       <div class="container footer-wrap">
         <div class="footer">
           <a href="./index.html" class="logo link"
@@ -442,7 +514,8 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
+    <!-- Modal-form -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-closet-btn" type="button" data-modal-close>
@@ -520,5 +593,6 @@
       </div>
     </div>
     <script src="./modal.js"></script>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>

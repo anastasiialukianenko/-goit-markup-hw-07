@@ -2,11 +2,29 @@
     .container{
         max-width: 426px;
     }
-        /* Hero */
-        
+    .mobile-menu-adress-tel {
+            font-size: 36px;}
+.mobile-menu-soc-list {
+    gap: 56px;
+}
+
+ /* Hero */
+
     .hero-title {
     width: 319px; 
-
     font-size: 36px;}
+  /* Footer */
+ .subscribe-form-input {
+     width: 396px;
 }
+/*================================ Modal window ===============================*/
+.modal {
+    width: 392px;
     
+    padding: 72px 16px 24px 16px;
+}
+.modal-form-check-desc {
+    display: flex;
+    align-items: center;
+}
+}
