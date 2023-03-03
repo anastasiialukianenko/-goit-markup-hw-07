@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 582px;
+    }
+        /* Hero */
+        .hero-section {
+            padding-bottom: 108px;
+        }
+
+         .hero-title {
+             width: 496px;
+            margin-bottom: 40px;
+    
+            font-size: 56px;
+            line-height: 1.07;
+         }
+}
