@@ -87,8 +87,15 @@
         /* Hero */
         .hero-section {
             padding-bottom: 108px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
         }
-
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg-tab-2.jpg);
+    }}
          .hero-title {
              width: 496px;
             margin-bottom: 40px;

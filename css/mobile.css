@@ -27,4 +27,11 @@
     display: flex;
     align-items: center;
 }
+.modal-form-check-desc {
+    font-size: 12px;
+}
+
+.modal-form-check-link {
+    font-size: 12px;
+}
 }
