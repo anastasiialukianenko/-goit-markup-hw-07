@@ -173,7 +173,30 @@ margin-bottom: 0;}
     width: 408px;
 padding: 72px 24px 24px 24px;
 }
+   /* Portfolio */
+   .portfolio-nav {
+       margin-bottom: 64px;
+       flex-wrap: nowrap;
+       justify-content: center;
+   }
 
+   .filter-btn {
+       padding: 12px 24px;
+   }
+
+   /* < !--Galaery of works--> */
+
+   .gallery-list {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       row-gap: 72px;
+       column-gap: 24px;
+   }
+
+.gallery-item {
+     width: calc((100% - 24px)/2);
+}
 }
 
 @media screen and (min-width: 768px) and (max-width:1199px){
@@ -183,4 +206,7 @@ padding: 72px 24px 24px 24px;
 .nav-box.container {
             max-width: 766px;
         }
+.portfolio>.container {
+    max-width: 766px;
+}
 }

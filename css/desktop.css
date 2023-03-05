@@ -129,5 +129,20 @@ font-weight: 500;
 .soc-media{
     margin-right: 80px;
 }
-/*================================ Modal window ===============================*/
+
+  /* Portfolio */
+.portfolio-nav {
+    margin-bottom: 72px;
+}
+
+/* < !--Galaery of works--> */
+  .gallery-list {
+  
+      row-gap: 40px;
+      column-gap: 24px;
+  }
+
+  .gallery-item {
+    width: calc((100% - 48px)/3);
+  }
 }
